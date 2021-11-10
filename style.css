@@ -1,0 +1,13 @@
+*{
+    background: black;
+}
+.dashboard {
+padding:0px 15px
+margin:0 auto
+}
+.dashboard .menu .h1
+{
+width:100%;
+ font-size:150px;
+
+}
