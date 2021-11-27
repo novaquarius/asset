@@ -5,131 +5,135 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My course dashboard</title>
-        <linkrel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" text="text/css" href="styles.css">
     </head>
     <body> 
         <div class="dashboard">
             <div class="sidebar"><!--sidebar start-->
-                <img src="dashboard-student-project-assets/Instincthub logo.png" alt="instincthub">
+               <span class="instinct"> <img src="dashboard-student-project-assets/Instincthub logo.png" alt="instincthub">
+               </span>
                 <div class="icons">
-                    <span class="icon1"><img src="dashboard-student-project-assets/bx_bxs-dashboard.png"> </span> <span> Overview </span>
-                    <span class="icon2"><img src="dashboard-student-project-assets/akar-icons_file.png" ></span> <span> Classes</span> 
-                    <span class="icon3"><img src="dashboard-student-project-assets/codicon_graph.png" ></span> <span>Analyticss</span>
-                    <span class="icon4"><img src="dashboard-student-project-assets/ic_baseline-group.png"></span> <span>Community</span>
-                    <span class="icon5"><img src="dashboard-student-project-assets/fe_logout.png"></span> <span>Logout</span>
-                </div> 
+                    <span class="icon1"><img src="dashboard-student-project-assets/bx_bxs-dashboard.png"> </span> <span class="list"> Overview </span>
+                    <span class="icon2"><img src="dashboard-student-project-assets/akar-icons_file.png" ></span> <span class="list" > Classes</span> 
+                    <span class="icon3"><img src="dashboard-student-project-assets/codicon_graph.png" ></span> <span class="list">Analyticss</span>
+                    <span class="icon4"><img src="dashboard-student-project-assets/ic_baseline-group.png"></span> <span class="list"> Community</span>
+                    <span class="icon5"><img src="dashboard-student-project-assets/fe_logout.png"></span> <span class="list">Logout</span>
+                </div>  
                 <div class="lastitem"> <!--last item on sidebar-->
                     <div class="icon6"><img src="dashboard-student-project-assets/Upgrade illustration.png">
                     </div>
-                    <p>Upgrade your <br> student portal <br> account</p> 
+                    <p class="info">Upgrade your <br> student portal <br> account</p> 
                     <p class="upgrade">Upgrade</p>
                 </div>
             </div><!--sidebar end-->
-
-            <div class="menu"> <!--menu bar start-->
-                <h1>My course dashboard</h1>
-                <div class="search">
-                    <form action="">
-                        <input type="text"  placeholder="you are looking for..">
-                        <span class="searchicon"> <img src="dashboard-student-project-assets/bx_bx-search.png">
-                        </span>
-                </form>
-                <span class="bellicon"><img src="dashboard-student-project-assets/codicon_bell-dot.png"></span>
-                <span class="usericon"><img src="dashboard-student-project-assets/User profile.png"></span>
-                </div>
-            </div> <!-- menu bar end-->
-        <div class="main">
-            <div class="activities"><!-- activity start-->
-                    <div class="daily">
-                        <span class="circle-around">71% </span>
-                        <h3>Daily</h3>
-                        <p>Activities</p>
+            <div class="container">
+                <div class="menu"> <!--menu bar start-->
+                    <h1>My course dashboard</h1>
+                    <div class="search">
+                        <form action="">
+                            <input type="text"  placeholder="you are looking for..">
+                            <span class="searchicon"> <img src="dashboard-student-project-assets/bx_bx-search.png">
+                            </span>
+                        </form>
+                        <span class="bellicon"><img src="dashboard-student-project-assets/codicon_bell-dot.png"></span>
+                        <span class="usericon"><img src="dashboard-student-project-assets/User profile.png"></span>
                     </div>
-                    <div class="monthly">
-                        <span class="circle-around">20% </span>
-                        <h3>Monthly</h3>
-                        <p>Activities</p>
-                    </div>
-                    <div class="yearly">
-                        <span class="circle-around">12% </span>
-                        <h3>Yearly</h3>
-                        <p>Activities</p>
-                    </div>
-                </div><!-- activity end-->
-                <div class="table-section"> <!--table section start-->
-                    <table>
-                        <tr class="tablehead">
-                            <th> No</th>
-                            <th>Course Name</th>
-                            <th>Department</th>
-                            <th>Units</th>
-                            <th>Gpa</th>
-                    </tr>
-                    <tr>
-                        <td> 0</td>
-                        <td>Tax Academy Introduction</td>
-                        <td>Finances</td>
-                        <td>3</td>
-                        <td>4.3/5</td>
-                    </tr>
-                        <tr>
-                            <td> 1</td>
-                            <td>Transfer Pricing Customer</td>
-                            <td>Service</td>  
-                            <td>3</td>
-                            <td>4.3/5</td>
-                        </tr>
-                        <tr>
-                            <td> 2</td>
-                            <td>Tax Academy for Beginners</td>
-                            <td>Purchasing</td>
-                            <td>3</td>
-                            <td>4.3/5</td>
-                        </tr>
-                        <tr>
-                            <td> 3</td>
-                            <td>New Business</td>
-                            <td>Finances</td>
-                            <td>3</td>
-                            <td>3.0/5</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Tax Accounting</td>
-                            <td>Administration</td>
-                            <td>8</td>
-                            <td>4.7/5</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Motion Design</td>
-                            <td>IT Dep</td>
-                            <td>6</td>
-                            <td>4.4/5</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>3D Modeling</td>
-                            <td>IT Dep</td>
-                            <td>3</td>
-                            <td>3.0/5</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Brand Strategy on Instagram</td>
-                            <td>Marketing</td>
-                            <td>3</td>
-                            <td>4.7/5</td>
-                        </tr>
-                </table>
-                </div> <!--table section end-->
-
-                <div class="last"> <!--last part of the page-->
-                    <p class="first-paragraph">When nothing goes right, go left</p>
-                    <p class="second-paragraph">Build your skills with courses online from<br>anywhere with professional instructors.</P>
-                    <p class="button">learn more</p>
-                    <span class="female-image"><img src="dashboard-student-project-assets/female image.png"></span>
-                </div> <!--end-->
+                </div> <!-- menu bar end-->
+                <div class="main">
+                    <div class="activities"><!-- activity start-->
+                        <div class="daily">
+                            <span class="seventy-one">71% </span>
+                                <span class="daily-activities"> <h3>Daily</h3>
+                                    <p>Activities</p>
+                                </span>
+                        </div>
+                        <div class="monthly">
+                            <span class="twenty">20% </span>
+                            <span class="monthly-activities"> <h3>Monthly</h3>
+                                <p>Activities</p>
+                            </span>
+                        </div>
+                        <div class="yearly">
+                            <span class="twelve">12% </span>
+                            <span class="yearly-activities"> <h3>Yearly</h3>
+                                <p>Activities</p>
+                            </span>
+                        </div>
+                    </div><!-- activity end-->
+                    <div class="table"> <!--table section start-->
+                        <table>
+                            <tr class="tablehead">
+                                <th> No</th>
+                                <th>Course Name</th>
+                                <th>Department</th>
+                                <th>Units</th>
+                                <th>Gpa</th>
+                            </tr>
+                            <tr>
+                                <td> 0</td>
+                                <td>Tax Academy Introduction</td>
+                                <td>Finances</td>
+                                <td>3</td>
+                                <td>4.3/5</td>
+                            </tr>
+                            <tr>
+                                <td> 1</td>
+                                <td>Transfer Pricing Customer</td>
+                                <td>Service</td>  
+                                <td>3</td>
+                                <td>4.3/5</td>
+                            </tr>
+                            <tr>
+                                <td> 2</td>
+                                <td>Tax Academy for Beginners</td>
+                                <td>Purchasing</td>
+                                <td>3</td>
+                                <td>4.3/5</td>
+                            </tr>
+                            <tr>
+                                <td> 3</td>
+                                <td>New Business</td>
+                                <td>Finances</td>
+                                <td>3</td>
+                                <td>3.0/5</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Tax Accounting</td>
+                                <td>Administration</td>
+                                <td>8</td>
+                                <td>4.7/5</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Motion Design</td>
+                                <td>IT Dep</td>
+                                <td>6</td>
+                                <td>4.4/5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>3D Modeling</td>
+                                <td>IT Dep</td>
+                                <td>3</td>
+                                <td>3.0/5</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Brand Strategy on Instagram</td>
+                                <td>Marketing</td>
+                                <td>3</td>
+                                <td>4.7/5</td>
+                            </tr>
+                        </table>
+                    </div> <!--table section end-->
+                    <div class="last"> <!--last part of the page-->
+                        <p class="first-paragraph">When nothing goes right, go left</p>
+                        <p class="second-paragraph">Build your skills with courses and degree online from<br>anywhere with professional instructors.</P>
+                        <p class="button">learn more</p>
+                        <span class="female-image"><img src="dashboard-student-project-assets/female image.png"></span>
+                    </div> <!--end-->
+                </div> <!--main end-->       
             </div> <!--class container end-->
         </div>
     </body>
